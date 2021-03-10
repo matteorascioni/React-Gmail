@@ -1,0 +1,28 @@
+/* EmailList general Rules */
+.emailList {
+    position: relative;
+    flex: 1;
+    overflow: scroll;
+}
+
+/* EmailList Settings */
+.emailList__settings {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding-right: 10px;
+    border-bottom: 1px solid whitesmoke;
+    background: #fff;
+    z-index: 999;
+}
+
+/* EmailList Sections */
+.emailList__sections {
+    position: sticky;
+    display: flex;
+    top: 0;
+    border-bottom: 1px solid whitesmoke;
+    background: #fff;
+    z-index: 999;
+}

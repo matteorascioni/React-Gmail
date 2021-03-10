@@ -1,0 +1,67 @@
+/* SendMail General Rules */
+.sendMail {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 500px;
+    height: 40%;
+    bottom: 0px;
+    right: 50px;
+    border: 1px solid whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #404040;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+
+/* SendMail Header */
+.sendMail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    color: grey;
+}
+
+.sendMail__header > h3 {
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+.sendMail__close {
+    cursor: pointer;
+}
+
+/* SendMail Form */
+.sendMail > form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sendMail > form > input {
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+}
+
+.sendMail__error {
+    padding: 2px;
+    text-align: right;
+    background: #fff;
+    color: red;
+}
+
+.sendMail > form > .sendMail__message {
+    flex: 1;
+}
+
+/* SendMail Options */
+.sendMail__send {
+    margin: 15px !important;
+    background-color: #3079ed !important; 
+    color: #fff !important;
+}
